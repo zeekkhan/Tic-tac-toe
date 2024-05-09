@@ -1,0 +1,49 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #2f52ed;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    color: #c00404;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #2fccd7;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #415eef;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #eaecf0;
+    box-shadow: 2px 2px 2px 2px #d86c23;
+    border: 2px solid #d86c23;
+}
